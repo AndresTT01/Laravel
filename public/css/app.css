@@ -1,0 +1,66 @@
+/* Reset de estilos para asegurar consistencia entre navegadores */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header .navbar{
+  background-color: #85929E;
+  color: #ffffff;
+}
+
+.navbar a{
+  color: #ffffff;
+}
+
+body{
+  background-color: #34495E;
+  color: #ffffff;
+}
+
+h1,.d {
+  margin-top: 20px; /* Margen superior para separar del header */
+  text-align: center; /* Centrar el texto */
+}
+
+/* Estilo para la tabla */
+.table {
+  width: 60%; /* Ancho de la tabla al 60% del contenedor */
+  margin: 20px auto; /* Margen automático arriba y abajo, centrar horizontalmente */
+}
+
+/* Estilo para las filas (table rows) */
+.table th,
+.table td{
+  text-align: center; /* Centrar el texto en las celdas */
+  background-color: #5D6D7E;
+  color: #ffffff;
+} 
+
+.table td, a{
+  text-align: center; /* Centrar el texto en las celdas */
+  color: #ffffff;
+} 
+
+.table td, .delete{
+  text-align: center; /* Centrar el texto en las celdas */
+  color: #ffffff;
+  background-color: #85929E;
+  border-radius: 2px;
+  border-color: #ffffff;
+} 
+
+
+
+.f{
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+}
+
+.form{
+  width: 20%;
+}
